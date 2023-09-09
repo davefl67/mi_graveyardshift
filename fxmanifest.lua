@@ -5,16 +5,16 @@ lua54 'yes'
 game 'gta5'
 
 -- Resource Information
-name 'template_here'
+name 'mi_graveyardshift'
 author 'MI_Agimir'
 version '1.0.0'
-repository 'https://github.com/MIAgimir/template_here'
+repository 'https://github.com/MIAgimir/mi_graveyardshift'
 description 'template'
 
 -- Manifest
 shared_scripts {
 	'@ox_lib/init.lua',
-    'shared/template.lua',
+    'shared/spooky.lua',
 	'shared/config.lua'
 }
 
