@@ -23,16 +23,18 @@ GS.options = {
 GS.graveyard = {
     -- blip location
     blip = {
-        loc = vec3(0,0,0),
-        sprite = 4,
-        color = 4,
-        scale = 0.7
+        allow = true,
+        loc = vec3(-1679.993, -292.205, 51.883),
+        sprite = 561,
+        color = 62,
+        scale = 0.7,
+        name = 'Vinewood Cemetery'
     },
     -- ped location
     ped = {
-        loc = vec4(0,0,0,0),
-        model = '',
-        anim = ''
+        loc = vec4(-1702.445, -275.277, 51.883, 231.913),
+        model = 'a_m_o_genstreet_01',
+        anim = 'WORLD_HUMAN_AA_SMOKE'
     }
 }
 
